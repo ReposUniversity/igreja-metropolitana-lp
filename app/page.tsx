@@ -34,7 +34,7 @@ export default function HomePage() {
       <section
         className="relative text-white py-20 md:py-32 bg-cover bg-center bg-no-repeat min-h-[90vh] flex items-center"
         style={{
-          backgroundImage: "linear-gradient(rgba(36, 42, 76, 0.7), rgba(36, 42, 76, 0.5)), url('/images/hero-bg.jpg')",
+          backgroundImage: "linear-gradient(rgba(36, 42, 76, 0.7), rgba(36, 42, 76, 0.5)), url('images/hero-bg.jpg')",
         }}
       >
         <div className="container mx-auto px-4 text-center relative z-10">
