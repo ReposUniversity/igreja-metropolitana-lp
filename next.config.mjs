@@ -2,8 +2,8 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.GITHUB_ACTIONS ? '/igreja-metropolitana-ip' : '',
-  assetPrefix: process.env.GITHUB_ACTIONS ? '/igreja-metropolitana-ip/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/igreja-metropolitana-ip' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/igreja-metropolitana-ip/' : '',
   eslint: {
     ignoreDuringBuilds: true,
   },
