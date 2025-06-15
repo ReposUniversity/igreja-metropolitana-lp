@@ -144,3 +144,13 @@ body {
     transform: translateY(-5px);
   }
 }
+
+/* Hero background with gradient */
+.hero-bg {
+  background: linear-gradient(135deg, 
+    rgba(36, 42, 76, 0.95) 0%, 
+    rgba(74, 79, 156, 0.9) 25%,
+    rgba(36, 42, 76, 0.95) 50%,
+    rgba(25, 30, 60, 0.98) 100%
+  );
+}
